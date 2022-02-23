@@ -7,14 +7,13 @@
     <title>404 Page | Play Tailwind</title>
     <link
       rel="shortcut icon"
-      href="assets/images/favicon.png"
+      href="{{asset('images/favicon.png')}}"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tailwind.css" />
+    <link rel="stylesheet" href="{{mix('css/app.css')}}" />
 
     <!-- ==== WOW JS ==== -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="{{mix('js/app.js')}}"></script>
     <script>
       new WOW().init();
     </script>
